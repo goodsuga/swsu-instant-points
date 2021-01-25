@@ -1,0 +1,7 @@
+pyfunctional
+requests
+bs4
+django
+psycopg2==2.8.6
+gunicorn
+lxml
