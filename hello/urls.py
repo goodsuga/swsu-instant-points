@@ -23,3 +23,6 @@ urlpatterns = [
     path('failure/', views.return_failure),
     path('admin/', admin.site.urls),
 ]
+
+handler404 = views.handler404
+handler500 = views.handler500
